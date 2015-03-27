@@ -22,5 +22,101 @@
     "img": "http://www.bohemianhellhole.com/.a/6a00e55090f45888330168ea0f685b970c-pi",
     "price": "$40",
     "adress": "950 Spring St NW Atlanta, GA "
+  },
+  {
+    "lat": 33.766157,
+    "long": -84.393604,
+    "title": "Renting Spare Attic Space - 5'x5'",
+    "img": "http://www.steampoweredclassroom.com/wp-content/uploads/2013/01/dsc_0099.jpg",
+    "price": "$29",
+    "adress": "929 Charles Allen Dr NE Atlanta, GA"
+  },
+  {
+    "lat": 33.770575,
+    "long": -84.403796,
+    "title": "2 Car Garage - 12'x10'",
+    "img": "http://tours.tourfactory.com/tours/media/scene/big2/00/10/08/90/10089073.jpg",
+    "price": "$50",
+    "adress": "86 5th St NW Atlanta, GA"
+  },
+  {
+    "lat": 33.77322,
+    "long": -84.386137,
+    "title": "Dry Basement - 12'x10'",
+    "img": "http://www.bohemianhellhole.com/.a/6a00e55090f45888330168ea0f685b970c-pi",
+    "price": "$40",
+    "adress": "950 Spring St NW Atlanta, GA "
+  },
+    {
+    "lat": 33.772507,
+    "long": -84.39296,
+    "title": "Renting Spare Attic Space - 5'x5'",
+    "img": "http://www.steampoweredclassroom.com/wp-content/uploads/2013/01/dsc_0099.jpg",
+    "price": "$29",
+    "adress": "929 Charles Allen Dr NE Atlanta, GA"
+  },
+  {
+    "lat": 33.770652,
+    "long": -84.384463,
+    "title": "2 Car Garage - 12'x10'",
+    "img": "http://tours.tourfactory.com/tours/media/scene/big2/00/10/08/90/10089073.jpg",
+    "price": "$50",
+    "adress": "86 5th St NW Atlanta, GA"
+  },
+  {
+    "lat": 33.775147,
+    "long": -84.400814,
+    "title": "Dry Basement - 12'x10'",
+    "img": "http://www.bohemianhellhole.com/.a/6a00e55090f45888330168ea0f685b970c-pi",
+    "price": "$40",
+    "adress": "950 Spring St NW Atlanta, GA "
+  },
+  {
+    "lat": 33.767798,
+    "long": -84.399483,
+    "title": "Renting Spare Attic Space - 5'x5'",
+    "img": "http://www.steampoweredclassroom.com/wp-content/uploads/2013/01/dsc_0099.jpg",
+    "price": "$29",
+    "adress": "929 Charles Allen Dr NE Atlanta, GA"
+  },
+  {
+    "lat": 33.76926,
+    "long": -84.405663,
+    "title": "2 Car Garage - 12'x10'",
+    "img": "http://tours.tourfactory.com/tours/media/scene/big2/00/10/08/90/10089073.jpg",
+    "price": "$50",
+    "adress": "86 5th St NW Atlanta, GA"
+  },
+  {
+    "lat": 33.775997,
+    "long": -84.386458,
+    "title": "Dry Basement - 12'x10'",
+    "img": "http://www.bohemianhellhole.com/.a/6a00e55090f45888330168ea0f685b970c-pi",
+    "price": "$40",
+    "adress": "950 Spring St NW Atlanta, GA "
+  },
+    {
+    "lat": 33.776354,
+    "long": -84.396415,
+    "title": "Renting Spare Attic Space - 5'x5'",
+    "img": "http://www.steampoweredclassroom.com/wp-content/uploads/2013/01/dsc_0099.jpg",
+    "price": "$29",
+    "adress": "929 Charles Allen Dr NE Atlanta, GA"
+  },
+  {
+    "lat": 33.780777,
+    "long": -84.40002,
+    "title": "2 Car Garage - 12'x10'",
+    "img": "http://tours.tourfactory.com/tours/media/scene/big2/00/10/08/90/10089073.jpg",
+    "price": "$50",
+    "adress": "86 5th St NW Atlanta, GA"
+  },
+  {
+    "lat": 33.77457,
+    "long": -84.409633,
+    "title": "Dry Basement - 12'x10'",
+    "img": "http://www.bohemianhellhole.com/.a/6a00e55090f45888330168ea0f685b970c-pi",
+    "price": "$40",
+    "adress": "950 Spring St NW Atlanta, GA "
   }
 ]
