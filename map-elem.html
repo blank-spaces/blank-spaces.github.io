@@ -1,0 +1,101 @@
+<link rel="import" href="bower_components/google-map/google-map.html">
+<link rel="import" href="bower_components/core-ajax/core-ajax.html">
+
+<polymer-element name="map-elem">
+
+  <template>
+    <style>
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
+    <core-ajax id="ajax" auto url="listings.json" handleAs="json" on-core-response="{{resp}}"></core-ajax>
+
+    <google-map id="map" latitude="33.771288" longitude="-84.392056" zoom="15" minzoom="11" id="google_map" language="en" fit>
+      <template repeat="{{item in response}}">
+        <google-map-marker longitude="{{item.long}}" latitude="{{item.lat}}" title="{{item.title}}">
+          <style>
+            #card {
+              width: 300px;
+              color: rgb(250, 250, 250);
+              position: relative;
+            }
+            
+            #img {
+              width: 300px;
+              object-fit: contain;
+            }
+            
+            #title {
+              font-size: 16px;
+              font-weight: bold;
+            }
+            
+            #favorite_button {
+              color: rgb(250, 250, 250);
+            }
+            
+            #favorite_button.favorite {
+              color: rgb(218, 67, 54);
+            }
+            
+            #info {
+              width: 100%;
+              position: absolute;
+              bottom: 0px;
+              left: 0px;
+              background-color: rgba(0, 0, 0, 0.498039);
+            }
+            
+            #price {
+              font-weight: bold;
+              font-size: 16px;
+              padding: 8px;
+              background-color: rgba(0, 0, 0, 0.498039);
+            }
+            
+            #top {
+              width: 100%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+            }
+          </style>
+          <core-card id="card" layout vertical center>
+            <img id="img" src="{{item.img}}"></img>
+            <div id="top" horizontal layout center end-justified>
+              <div id="price">{{item.price}}</div>
+              <div id="div" one flex></div>
+              <core-icon-button icon="favorite" id="favorite_button" theme="core-light-theme" onclick="favoriteTapped(this)"></core-icon-button>
+            </div>
+            <div id="info" vertical layout center>
+              <div id="title">{{item.title}}</div>
+              <div id="adress">{{item.adress}}</div>
+            </div>
+          </core-card>
+          <script>
+            function favoriteTapped(sender) {
+              sender.classList.toggle('favorite');
+            };
+          </script>
+        </google-map-marker>
+      </template>
+    </google-map>
+
+  </template>
+
+  <script>
+    Polymer({
+      resp: function() {
+        this.response = this.$.ajax.response;
+      },
+      favoriteTapped: function(e, detail, sender) {
+        sender.classList.toggle('favorite');
+      }
+
+    });
+  </script>
+
+</polymer-element>
